@@ -178,11 +178,12 @@ function classNames(...classes: string[]): string {
               <div className="ml-4 flex lg:ml-0">
                 <a href="#">
                   <span className="sr-only">Your Company</span>
-                  <img
+                  {/* <img
                     className="h-8 w-auto"
                     src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                     alt=""
-                  />
+                  /> */}
+                  <h2 className='text-blue-400'>Liquid_Lounge</h2>
                 </a>
               </div>
 
