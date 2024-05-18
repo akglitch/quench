@@ -1,5 +1,4 @@
 import Image from "next/image";
-import ProductDisplay from "./components/productDisplay";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import ProductList from "./components/ProductList";
@@ -18,7 +17,7 @@ export default function Home() {
      <Nav />
        <Hero />
        <ProductList />
-<ProductDisplay />
+
 <Footer />
 
       </div>

@@ -4,15 +4,11 @@ import { Dialog, Popover, Tab, Transition } from '@headlessui/react'
 import { Bars3Icon, MagnifyingGlassIcon, ShoppingBagIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { navigation } from '../utils/navData';
 
-
-
-
 function classNames(...classes: string[]): string {
   return classes.filter(Boolean).join(' ');
 }
 
-
- export const Nav: React.FC = () =>{
+export const Nav: React.FC = () => {
   const [open, setOpen] = useState(false)
 
   return (
@@ -93,26 +89,6 @@ function classNames(...classes: string[]): string {
                             </div>
                           ))}
                         </div>
-                        {category.sections.map((section) => (
-                          <div key={section.name}>
-                            <p id={`${category.id}-${section.id}-heading-mobile`} className="font-medium text-gray-900">
-                              {section.name}
-                            </p>
-                            <ul
-                              role="list"
-                              aria-labelledby={`${category.id}-${section.id}-heading-mobile`}
-                              className="mt-6 flex flex-col space-y-6"
-                            >
-                              {section.items.map((item) => (
-                                <li key={item.name} className="flow-root">
-                                  <a href={item.href} className="-m-2 block p-2 text-gray-500">
-                                    {item.name}
-                                  </a>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        ))}
                       </Tab.Panel>
                     ))}
                   </Tab.Panels>
@@ -159,8 +135,6 @@ function classNames(...classes: string[]): string {
       </Transition.Root>
 
       <header className="relative bg-white">
-     
-
         <nav aria-label="Top" className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="border-b border-gray-200">
             <div className="flex h-16 items-center">
@@ -178,11 +152,6 @@ function classNames(...classes: string[]): string {
               <div className="ml-4 flex lg:ml-0">
                 <a href="#">
                   <span className="sr-only">Your Company</span>
-                  {/* <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                    alt=""
-                  /> */}
                   <h2 className='text-blue-400'>Liquid_Lounge</h2>
                 </a>
               </div>
@@ -240,28 +209,6 @@ function classNames(...classes: string[]): string {
                                           <p aria-hidden="true" className="mt-1">
                                             Shop now
                                           </p>
-                                        </div>
-                                      ))}
-                                    </div>
-                                    <div className="row-start-1 grid grid-cols-3 gap-x-8 gap-y-10 text-sm">
-                                      {category.sections.map((section) => (
-                                        <div key={section.name}>
-                                          <p id={`${section.name}-heading`} className="font-medium text-gray-900">
-                                            {section.name}
-                                          </p>
-                                          <ul
-                                            role="list"
-                                            aria-labelledby={`${section.name}-heading`}
-                                            className="mt-6 space-y-6 sm:mt-4 sm:space-y-4"
-                                          >
-                                            {section.items.map((item) => (
-                                              <li key={item.name} className="flex">
-                                                <a href={item.href} className="hover:text-gray-800">
-                                                  {item.name}
-                                                </a>
-                                              </li>
-                                            ))}
-                                          </ul>
                                         </div>
                                       ))}
                                     </div>
