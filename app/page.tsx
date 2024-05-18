@@ -3,6 +3,8 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import ProductList from "./components/ProductList";
 import { Nav } from "./components/Nav";
+import HotDeals from "./components/HotDeals";
+import NewArrivals from "./components/NewArrivals";
 
 
 
@@ -16,6 +18,8 @@ export default function Home() {
       <div className="">
      <Nav />
        <Hero />
+       <NewArrivals />
+     <HotDeals />
        <ProductList />
 
 <Footer />
