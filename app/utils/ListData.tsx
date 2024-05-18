@@ -32,6 +32,7 @@ export const products = [
     name: 'Moët & Chandon - Brut Impérial ',
     color: 'Red',
     price: '$10.00'
+    
   },
   {
     id: 2,
