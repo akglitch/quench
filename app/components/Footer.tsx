@@ -12,9 +12,10 @@ const Footer: React.FC = () => {
         <p>Liquid_Lounge</p>
         </div>
           <p className="mt-4 text-center text-gray-500 lg:text-left lg:text-sm">
-          Liquid Lounge is the premier online destination for beer, spirits, and wine enthusiasts in Ghana. Our platform offers a seamless and secure way to purchase your favorite beverages in Accra, Kumasi, Takoradi, and other regions across the country. Say goodbye to long queues and crowded stores - we save you time and hassle by delivering your drinks directly to your doorstep.
+          Liquid Lounge is the premier online destination for beer, spirits, and wine enthusiasts in Ghana. Our platform offers a seamless and secure way to purchase your favorite beverages in Accra, Kumasi, Takoradi, and other regions across the country. Say goodbye to long queues and crowded stores – we save you time and hassle by delivering your drinks directly to your doorstep.
 
-Explore Liquid Lounge to discover exclusive offers on a wide range of alcoholic and non-alcoholic drinks. Whether you're stocking up for a party or simply enjoying a quiet evening at home, we have special deals for bulk orders that ensure you get the best value for your money. With our user-friendly website, ordering your drinks is quick and easy, allowing you to enjoy fast and reliable delivery anywhere in Ghana.
+Explore Liquid Lounge to discover exclusive offers on a wide range of alcoholic and non-alcoholic drinks. Whether you&apos;re stocking up for a party or simply enjoying a quiet evening at home, we have special deals for bulk orders that ensure you get the best value for your money. With our user-friendly website, ordering your drinks is quick and easy, allowing you to enjoy fast and reliable delivery anywhere in Ghana.
+
           </p>
   
           <div className="mt-6 flex justify-center  gap-4 lg:justify-start">
