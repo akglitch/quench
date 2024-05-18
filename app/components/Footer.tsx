@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
   
       <div className="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-32">
         <div className="mx-auto max-w-sm lg:max-w-none">
-        <div className="flex justify-center text-teal-600 sm:justify-start">
+        <div className="flex justify-center text-blue-600 sm:justify-start">
         <p>Liquid_Lounge</p>
         </div>
           <p className="mt-4 text-center text-gray-500 lg:text-left lg:text-sm">
@@ -110,24 +110,24 @@ Explore Liquid Lounge to discover exclusive offers on a wide range of alcoholic 
   
             <ul className="mt-6 space-y-1">
               <li>
-                <a className="text-gray-700 transition hover:text-gray-700/75" href="#"> Marketing </a>
+                <a className="text-gray-700 transition hover:text-gray-700/75" href="#">Exclusive Access </a>
               </li>
   
               <li>
                 <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
-                  Graphic Design
+                Custom Beverage Suggestions
                 </a>
               </li>
   
               <li>
                 <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
-                  App Development
+                Tasting Events
                 </a>
               </li>
   
               <li>
                 <a className="text-gray-700 transition hover:text-gray-700/75" href="#">
-                  Web Development
+                Online Ordering
                 </a>
               </li>
             </ul>
