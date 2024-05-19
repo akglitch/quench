@@ -5,8 +5,8 @@ const SummerStyles: React.FC = () => {
   const imageUrls = [
     'herodrink.webp',
     'herodrink2.jpg',
-    'herodrink3.png',
-    'herodrink4.png',
+   
+    
   ];
 
   return (
